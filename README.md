@@ -11,13 +11,16 @@ Userscript that shows your open Zendesk tickets (`status:open assignee:me`) as a
 ## Requirements
 
 - Google Chrome Zendesk Desktop App
-     - Using "Install Page as App..." button
-       <img width="768" height="51" alt="image" src="https://github.com/user-attachments/assets/65402be5-ca2e-4b22-8508-a92a96d49f7e" />
+     - To save ZD view as a Dock App: Go to Open Tickets view -> Three dot menu in top right -> Cast, save, share -> Install page as
+      <img width="1920" height="927" alt="image" src="https://github.com/user-attachments/assets/918ce6ac-93e5-4df1-9643-9bc76cb3dd17" />
+
+     - Reminder to Keep in Dock once installed 
+      <img width="768" height="51" alt="image" src="https://github.com/user-attachments/assets/65402be5-ca2e-4b22-8508-a92a96d49f7e" />
 - [Tampermonkey](https://www.tampermonkey.net/)
-- Update your Tampermonkey security settings:
+- Go to Settings tab -> change Config mode to Advanced and Update your Tampermonkey security settings:
 <img width="801" height="464" alt="image" src="https://github.com/user-attachments/assets/b03a1019-5d71-4ade-8935-192f7be08a4d" />
 
-## Install in Tampermonkey (from local repo)
+## Install in Tampermonkey
 
 1. Open Chrome and install Tampermonkey if you do not have it yet.
 2. Open the Tampermonkey extension.
