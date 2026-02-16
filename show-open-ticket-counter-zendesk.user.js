@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Show open ticket counter in Zendesk Chrome App
 // @namespace    *.zendesk.com
-// @version      0.1
+// @version      0.2
 // @description  Show count of open tickets (assignee:me) as an app badge in the installed Zendesk Chrome App
 // @author       alvaro.boza@datadoghq.com
 // @match        https://*.zendesk.com/agent/*
