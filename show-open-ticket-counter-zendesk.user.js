@@ -45,12 +45,6 @@
     }
   }
 
-  // Update when window gains focus and on an interval
-  window.addEventListener('focus', updateBadgeIcon, { passive: true });
-  document.addEventListener('visibilitychange', () => {
-    if (!document.hidden) updateBadgeIcon();
-  }, { passive: true });
-
   updateBadgeIcon();
   setInterval(updateBadgeIcon, 30000); // every 30s to avoid rate limits
 })();
